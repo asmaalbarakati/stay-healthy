@@ -1,0 +1,10 @@
+<div class="center jumbotron">
+  <h1>BMI Calculater</h1>
+  <label>Please Enter:</label>
+  <br><br>
+  <%= form_tag(pages_bmiResult_path, method: "get") do %>
+    Height(m):<%= text_field_tag(:h) %><br><br>
+    Weight(kg):<%= text_field_tag(:w) %><br><br>
+    <%= submit_tag("calculate") %>
+  <% end %>
+</div>

@@ -1,0 +1,126 @@
+$navbar-default-bg: #BDBDBD;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+label {
+ color: #0B614B;   
+}    
+
+
+
+#logo {
+
+float: left;
+
+font-size: 1.7em;
+
+color: #0B6138;
+
+text-transform: uppercase;
+
+letter-spacing: -1px;
+
+font-weight: bold;
+
+}
+
+#logo:hover {
+
+color: #fff;
+
+text-decoration: none;
+
+}
+
+.center {
+
+text-align: center;
+
+}
+
+.jumbotron {
+
+//background-image: asset-url('stayhealthy.png');
+
+//background-size: cover;
+
+//height: 550px;
+
+}
+
+.jumbotron h1 {
+
+color: #DBA901;
+
+text-align: center;
+
+margin-bottom: 30px;
+
+letter-spacing: -1px;
+
+font-weight: bold;
+
+}
+
+.jumbotron h2 {
+
+color: #DBA901;
+
+text-align: left;
+
+margin-bottom: 30px;
+
+letter-spacing: -1px;
+
+font-weight: bold;
+
+}
+
+.btn-xlarge {
+
+font-size: 1.7em;
+
+background-color: black;
+
+}
+
+footer {
+
+margin-top: 45px;
+
+padding-top: 5px;
+
+border-top: 1px solid #eaeaea;
+
+color: #777;
+
+}
+
+footer a:hover {
+
+color: #222;
+
+}
+
+footer small {
+
+float: left;
+
+}
+
+footer ul {
+
+float: right;
+
+list-style: none;
+
+}
+
+footer ul li {
+
+float: left;
+
+margin-left: 15px;
+
+}

@@ -1,0 +1,9 @@
+<div class="jumbotron">
+    <h2>This is the recent healthy tips from twitter:</h2>
+    <br>
+    <ul>
+    <%  @tweets.each do |tweet| %>
+        <li><%= tweet.text %></li>
+    <% end %>
+    </ul>
+</div>
